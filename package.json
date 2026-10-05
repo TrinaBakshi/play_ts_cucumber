@@ -1,0 +1,20 @@
+{
+  "name": "play_ts_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require \"test/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}
